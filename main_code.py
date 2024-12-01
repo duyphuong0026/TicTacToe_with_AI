@@ -17,9 +17,8 @@ class TicTacToe:
         self.buttons = []
         self.game_mode = None  # 'PvP', 'PvC', 'CvC'
         self.winning_cells = []  # Danh sách các ô thắng cuộc
-        self.algorithm_p1 = None  # Thuật toán của máy P1 (Player 1)
-        self.algorithm_p2 = None  # Thuật toán của máy P2 (Player 2)
-
+        self.algorithm_p1 = None  # Thuật toán của máy 1
+        self.algorithm_p2 = None  # Thuật toán của máy 2
         self.show_game_type_selection()
 
     def center_window(self, width, height):
